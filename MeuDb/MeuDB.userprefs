@@ -1,0 +1,19 @@
+﻿<Properties StartupItem="iOS/MeuDB.iOS.csproj" StartupConfiguration="{FA8D7F72-C475-4EF4-918D-D65439F33F43}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MeuDB/Contato.cs">
+    <Files>
+      <File FileName="MeuDB/MeuDB.cs" Line="30" Column="2" />
+      <File FileName="MeuDB/AcessoDados.cs" Line="50" Column="2" />
+      <File FileName="MeuDB/MyPage.xaml.cs" Line="50" Column="1" />
+      <File FileName="iOS/Config.cs" Line="36" Column="3" />
+      <File FileName="iOS/AppDelegate.cs" Line="13" Column="36" />
+      <File FileName="MeuDB/Contato.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.MeuDB.Droid PreferredExecutionTarget="Android.Nexus_5X_API_24_x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.MeuDB.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.DC67CEAB-4052-4FAF-9863-438C5B012E99" />
+</Properties>
