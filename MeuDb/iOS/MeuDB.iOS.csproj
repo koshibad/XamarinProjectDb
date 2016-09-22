@@ -21,7 +21,6 @@
     <ConsolePause>false</ConsolePause>
     <MtouchArch>i386</MtouchArch>
     <MtouchLink>None</MtouchLink>
-    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <CodesignKey>iPhone Developer</CodesignKey>
     <MtouchDebug>true</MtouchDebug>
   </PropertyGroup>
@@ -136,9 +135,8 @@
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Info.plist" />
-    <None Include="Entitlements.plist" />
     <None Include="packages.config" />
+    <None Include="Info.plist" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />

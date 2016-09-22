@@ -1,10 +1,12 @@
-/Users/rogerio/Downloads/XamarinFormsSQLite-master 2/MeuDB/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
-/Users/rogerio/Downloads/XamarinFormsSQLite-master 2/MeuDB/obj/Debug/MeuDB.MyPage.xaml
-/Users/rogerio/Downloads/XamarinFormsSQLite-master 2/MeuDB/obj/Debug/MyPage.xaml.g.cs
-/Users/rogerio/Downloads/XamarinFormsSQLite-master 2/MeuDB/bin/Debug/MeuDB.dll.mdb
-/Users/rogerio/Downloads/XamarinFormsSQLite-master 2/MeuDB/bin/Debug/MeuDB.dll
-/Users/rogerio/Downloads/XamarinFormsSQLite-master 2/MeuDB/obj/Debug/MeuDB.dll
-/Users/rogerio/Downloads/XamarinFormsSQLite-master 2/MeuDB/obj/Debug/MeuDB.dll.mdb
-/Users/rogerio/Downloads/XamarinFormsSQLite-master 2/MeuDB/bin/Debug/Xamarin.Forms.Core.dll
-/Users/rogerio/Downloads/XamarinFormsSQLite-master 2/MeuDB/bin/Debug/Xamarin.Forms.Xaml.dll
-/Users/rogerio/Downloads/XamarinFormsSQLite-master 2/MeuDB/bin/Debug/SQLite.Net.dll
+/Users/Guest/Documents/XamarinProjectDb/MeuDb/MeuDB/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
+/Users/Guest/Documents/XamarinProjectDb/MeuDb/MeuDB/obj/Debug/MeuDB.MyPage.xaml
+/Users/Guest/Documents/XamarinProjectDb/MeuDb/MeuDB/obj/Debug/MyPage.xaml.g.cs
+/Users/Guest/Documents/XamarinProjectDb/MeuDb/MeuDB/bin/Debug/MeuDB.dll.mdb
+/Users/Guest/Documents/XamarinProjectDb/MeuDb/MeuDB/bin/Debug/MeuDB.dll
+/Users/Guest/Documents/XamarinProjectDb/MeuDb/MeuDB/obj/Debug/MeuDB.dll
+/Users/Guest/Documents/XamarinProjectDb/MeuDb/MeuDB/obj/Debug/MeuDB.dll.mdb
+/Users/Guest/Documents/XamarinProjectDb/MeuDb/MeuDB/bin/Debug/Xamarin.Forms.Core.dll
+/Users/Guest/Documents/XamarinProjectDb/MeuDb/MeuDB/bin/Debug/Xamarin.Forms.Xaml.dll
+/Users/Guest/Documents/XamarinProjectDb/MeuDb/MeuDB/bin/Debug/SQLite.Net.dll
+/Users/Guest/Documents/XamarinProjectDb/MeuDb/MeuDB/obj/Debug/MeuDB.DetalhesPage.xaml
+/Users/Guest/Documents/XamarinProjectDb/MeuDb/MeuDB/obj/Debug/DetalhesPage.xaml.g.cs

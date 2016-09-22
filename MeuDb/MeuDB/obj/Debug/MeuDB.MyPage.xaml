@@ -9,30 +9,31 @@
 		<Button x:Name="Salvar" Text="Salvar" Clicked="SalvarClicked"></Button>
 
 		<ListView x:Name="Lista" ItemTapped="Handle_ItemTapped">
-				 <ListView.ItemTemplate>
-					<DataTemplate>
-						<ViewCell>
-							<ViewCell.View>
-										<StackLayout  HorizontalOptions="StartAndExpand"  Orientation="Horizontal" VerticalOptions="CenterAndExpand">
-												<StackLayout Orientation="Horizontal"  Spacing="3">
-													<StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" >
-														<Label Text="{Binding Nome}" WidthRequest="110" TextColor="Black" />
-													</StackLayout>
 
-										
-												</StackLayout>
-										
-											</StackLayout>
-							</ViewCell.View>
-							  <ViewCell.ContextActions>
-	                     		<MenuItem Clicked="Handle_Clicked"
-	           						Text="Excluir"  IsDestructive="true" />
-                     		</ViewCell.ContextActions>	
-						</ViewCell>
-					</DataTemplate>
-				</ListView.ItemTemplate>
-			</ListView>
+			<ListView.ItemTemplate>
+				<DataTemplate>
+					<ViewCell>
+							
+						<ViewCell.View>
+							<StackLayout HorizontalOptions="Center" VerticalOptions="Center" Orientation="Horizontal">
 
+								<Label Text="{Binding Nome}" TextColor="Black"/>
+								<Label Text="{Binding Telefone}" TextColor="Green"/>
+									
+							</StackLayout>
+						</ViewCell.View>
+
+						<ViewCell.ContextActions>
+
+							<MenuItem Text="Excluir" IsDestructive="true" Clicked="Handle_Clicked"/>
+								
+						</ViewCell.ContextActions>
+							
+					</ViewCell>
+				</DataTemplate>
+			</ListView.ItemTemplate>
+
+		</ListView>
 
 	</StackLayout>
 	</ContentPage.Content>

@@ -10,10 +10,15 @@ namespace MeuDB
 		public MyPage ()
 		{
 			InitializeComponent ();
+		}
 
-			using(var dados = new AcessoDados())
+		protected override void OnAppearing()
+		{
+			base.OnAppearing();
+
+			using (var dados = new AcessoDados())
 			{
-				this.Lista.ItemsSource = dados.Listar ();
+				this.Lista.ItemsSource = dados.Listar();
 			}
 		}
 
@@ -35,9 +40,10 @@ namespace MeuDB
 		void Handle_ItemTapped(object sender, Xamarin.Forms.ItemTappedEventArgs e)
 		{
 			if (e == null) return; // has been set to null, do not 'process' tapped event
-			Debug.WriteLine("Tapped: " + e.Item);
+			//Debug.WriteLine("Tapped: " + e.Item);
+			//int teste = ((Contato)e.Item).Id;
 
-			int teste = ((Contato)e.Item).Id;
+			Navigation.PushModalAsync(new NavigationPage(new DetalhesPage((Contato)e.Item)));
 		}
 
 		void Handle_Clicked(object sender, System.EventArgs e)
